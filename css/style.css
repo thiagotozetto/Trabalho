@@ -1,0 +1,480 @@
+@font-face {
+  font-family: "Quicksand";
+  src: url("../font/Quicksand.ttf");
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  overflow-y: scroll;
+}
+
+body {
+  font-family: "Quicksand";
+}
+
+.center {
+  width: 1135px;
+  margin: auto;
+}
+
+.bg-darkblue {
+  background-color: rgb(0, 2, 53);
+}
+
+.header-info {
+  font-size: 15px;
+  text-align: right;
+  color: white;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.header-info img {
+  margin-left: 10px;
+  margin-right: 4px;
+}
+
+.header-title {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.header-title h1 {
+  font-size: 40px;
+  color: rgb(0, 2, 53);
+}
+
+.header-title img {
+  width: 275px;
+}
+
+.bg-grey {
+  background-color: rgb(233, 233, 233);
+}
+
+.flex-end {
+  display: flex;
+  justify-content: flex-end;
+}
+
+#img-register {
+  background-image: url("../img/bg-form.jpg");
+  height: 390px;
+}
+
+#div-form {
+  width: 50%;
+  text-align: center;
+  border-top: rgb(0, 2, 53) solid 2px;
+  background-color: rgba(251, 251, 251, 0.664);
+}
+
+#div-form h1 {
+  text-transform: uppercase;
+  font-size: 22px;
+  font-weight: bold;
+  padding-top: 40px;
+  padding-bottom: 35px;
+}
+
+input {
+  outline: none;
+  font-family: "Quicksand";
+}
+
+.form-adjust1 {
+  height: 48px;
+  width: 230px;
+  padding-left: 4px;
+  font-size: 15px;
+}
+
+.form-adjust1:focus {
+  border: none;
+  box-shadow: inset 0 0 0, 0 0 5px rgb(27, 133, 255);
+}
+
+select {
+  outline: none;
+  font-family: "Quicksand";
+  font-weight: bold;
+}
+
+select:focus {
+  border: none;
+  box-shadow: inset 0 0 0, 0 0 5px rgb(27, 133, 255);
+}
+
+.form-top {
+  padding-top: 18px;
+}
+
+.left-space {
+  margin-left: 12px;
+}
+
+#register-button {
+  margin-top: 30px;
+  height: 45px;
+  width: 150px;
+  border-radius: 5px;
+  background-color: rgb(0, 2, 53);
+  color: white;
+  border: 0px;
+  font-size: 15px;
+  font-weight: bold;
+  font-family: "Quicksand";
+  text-transform: uppercase;
+  align-items: baseline;
+  background-image: url("../img/join-us.png");
+  background-repeat: no-repeat;
+  background-position-x: 10px;
+  background-position-y: center;
+  text-align: right;
+  padding: 10px;
+}
+
+#register-button:hover {
+  background-color: rgb(1, 1, 160);
+}
+
+.article-top {
+  padding-top: 50px;
+}
+
+.item-a {
+  grid-area: itema;
+}
+.item-b {
+  grid-area: itemb;
+}
+.item-c {
+  grid-area: itemc;
+}
+.item-d {
+  grid-area: itemd;
+}
+.item-e {
+  grid-area: iteme;
+}
+
+#grid-container {
+  display: grid;
+  grid-gap: 20px;
+  grid-row-gap: 40px;
+  grid-template-columns: 365px 365px 365px;
+  grid-template-rows: auto;
+  grid-template-areas:
+    "itema itemb itemc"
+    "itema itemd iteme";
+}
+
+#grid-container h1 {
+  font-size: 22px;
+  color: rgb(0, 2, 53);
+  font-weight: bold;
+  padding-bottom: 20px;
+}
+
+#h1-adjust {
+  padding-top: 11px;
+}
+
+#grid-container p {
+  text-align: justify;
+  font-size: 15px;
+}
+
+.item-icon {
+  margin-right: 5px;
+  padding: 7px 9px 7px 9px;
+  background-color: rgb(0, 2, 53);
+}
+
+.ref {
+  text-decoration: none;
+  color: rgb(27, 133, 255);
+}
+
+.ref:hover {
+  color: rgb(5, 80, 219);
+}
+
+.last-reviews h1 {
+  font-size: 32px;
+  font-weight: bold;
+  padding-bottom: 65px;
+  color: rgb(0, 2, 53);
+}
+
+.last-reviews h2 {
+  color: rgb(0, 2, 53);
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+#grid-adjust1,
+.grid-adjust2 {
+  display: grid;
+  grid-gap: 20px;
+  grid-template-columns: 365px 365px 365px;
+  grid-template-rows: auto;
+  grid-template-areas: "itema itemb itemc";
+}
+
+.item-reviews img {
+  height: 132px;
+  width: 132px;
+  border-radius: 200px;
+  margin-top: -30px;
+}
+
+.item-reviews {
+  text-align: center;
+  background-color: rgb(247, 247, 247);
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+.p-reviews {
+  font-size: 15px;
+}
+
+.review-button {
+  height: 45px;
+  width: 210px;
+  border-radius: 5px;
+  background-color: gray;
+  color: white;
+  border: 0px;
+  margin-bottom: 15px;
+  font-size: 15px;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-family: "Quicksand";
+}
+
+.review-button:hover {
+  background-color: rgb(0, 2, 53);
+}
+
+.premium h1 {
+  font-size: 32px;
+  font-weight: bold;
+  padding-bottom: 25px;
+  color: rgb(0, 2, 53);
+}
+
+.premium h2 {
+  color: white;
+  font-size: 25px;
+}
+
+.premium-month {
+  background-color: rgb(241, 241, 241);
+  border-style: solid;
+  border-color: rgb(226, 226, 226);
+  border-width: 1px;
+  text-align: center;
+}
+
+.bg-month {
+  background-color: rgb(0, 2, 53);
+  padding: 20px;
+}
+
+.bg-price {
+  background-color: gray;
+  padding: 15px;
+}
+
+.font-price {
+  font-size: 60px;
+  font-style: italic;
+  font-weight: bold;
+  color: white;
+}
+
+.price-size {
+  margin-left: 5px;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.info-style {
+  border-style: none solid none solid;
+  border-color: transparent;
+  border-width: 15px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+}
+
+.info-core {
+  border-bottom-style: solid;
+  border-bottom-color: rgb(201, 201, 201);
+  border-bottom-width: 1px;
+  padding: 12px;
+  font-size: 15px;
+}
+
+.premium-button {
+  height: 50px;
+  width: 100%;
+  background-color: rgb(95, 95, 95);
+  color: white;
+  font-family: "Quicksand";
+  border: 0px;
+  font-size: 20px;
+  text-transform: uppercase;
+}
+
+.premium-button:hover {
+  background-color: rgb(0, 2, 53);
+}
+
+#hr-style {
+  margin-top: 50px;
+  margin-bottom: 90px;
+}
+
+.more-about h1 {
+  font-size: 22px;
+  font-weight: bold;
+  color: rgb(0, 2, 53);
+  padding-bottom: 20px;
+}
+
+.p-top {
+  padding-top: 10px;
+}
+
+.p-adjust {
+  font-size: 15px;
+  text-align: justify;
+}
+
+#trailer-video {
+  height: 210px;
+  width: 365px;
+}
+
+.user-opinion {
+  display: flex;
+  padding-bottom: 15px;
+}
+
+.user-img {
+  height: 80px;
+  width: 80px;
+  margin-right: 20px;
+}
+
+.user-p {
+  text-align: center;
+  padding: 10px;
+  border: rgb(226, 226, 226) solid 1px;
+  font-size: 15px;
+}
+
+#adjust-button {
+  text-align: right;
+}
+
+#opinion-button {
+  background-color: rgb(179, 179, 179);
+  color: white;
+  border: none;
+}
+
+#opinion-button:hover {
+  background-color: rgb(0, 2, 53);
+}
+
+#players-img {
+  height: 210px;
+  width: 365px;
+}
+
+.footer-top {
+  padding-top: 70px;
+}
+
+#bg-subscription {
+  background-image: url(../img/bg-footer.jpg);
+  text-align: center;
+}
+
+#form-subscription {
+  padding-top: 40px;
+  padding-bottom: 40px;
+  color: white;
+  font-size: 15px;
+}
+
+.form-adjust2 {
+  height: 40px;
+  width: 250px;
+  padding-left: 4px;
+  margin-right: 5px;
+  font-size: 15px;
+}
+
+#subscription-button {
+  height: 40px;
+  width: 120px;
+  border-radius: 5px;
+  font-family: "Quicksand";
+  font-size: 15px;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: rgb(0, 2, 53);
+  background-color: white;
+  border: 0px;
+}
+
+#subscription-button:hover {
+  color: white;
+  background-color: rgb(0, 2, 53);
+}
+
+#bg-links {
+  background-color: rgb(0, 2, 53);
+}
+
+.footer-links {
+  display: flex;
+  justify-content: space-between;
+}
+
+#footer-link1 {
+  color: white;
+  font-size: 15px;
+  padding-top: 40px;
+  padding-bottom: 25px;
+  text-align: left;
+}
+
+#footer-link2 {
+  color: white;
+  font-size: 15px;
+  padding-top: 35px;
+  padding-bottom: 15px;
+}
+
+.footer-img {
+  width: 28px;
+  height: 28px;
+  filter: grayscale(100%);
+}
+
+.footer-img:hover {
+  filter: grayscale(10%);
+}

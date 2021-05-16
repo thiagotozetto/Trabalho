@@ -1,0 +1,250 @@
+* {
+  box-sizing: border-box;
+}
+
+@media screen and (max-width: 1160px) {
+  .center {
+    width: 910px;
+  }
+
+  .form-adjust1 {
+    width: 180px;
+  }
+
+  #grid-container {
+    grid-template-columns: 290px 290px 290px;
+  }
+
+  #grid-adjust1,
+  .grid-adjust2 {
+    grid-template-columns: 290px 290px 290px;
+  }
+
+  #players-img {
+    height: 190px;
+    width: 290px;
+  }
+
+  #trailer-video {
+    height: 190px;
+    width: 290px;
+  }
+}
+
+@media screen and (max-width: 925px) {
+  .center {
+    width: 685px;
+  }
+
+  .header-title h1 {
+    text-align: right;
+  }
+
+  .form-adjust1 {
+    width: 130px;
+  }
+
+  #grid-container {
+    grid-template-columns: 215px 215px 215px;
+  }
+
+  #grid-adjust1,
+  .grid-adjust2 {
+    grid-template-columns: 215px 215px 215px;
+  }
+
+  .review-button {
+    width: 170px;
+  }
+
+  #players-img {
+    height: 170px;
+    width: 215px;
+  }
+
+  #trailer-video {
+    height: 170px;
+    width: 215px;
+  }
+}
+
+@media screen and (max-width: 710px) {
+  .center {
+    width: auto;
+  }
+
+  .header-info {
+    padding-right: 20px;
+  }
+
+  .header-title {
+    display: flex;
+    flex-direction: column;
+  }
+
+  #div-form {
+    width: 100%;
+    text-align: center;
+    border-top: rgb(0, 2, 53) solid 3px;
+    background-color: rgb(241, 241, 241);
+  }
+
+  #img-register {
+    background-image: none;
+    height: auto;
+  }
+
+  .form-adjust1 {
+    width: 570px;
+  }
+
+  #register-button {
+    margin-bottom: 30px;
+  }
+
+  .media-adjust1 {
+    margin-top: 18px;
+  }
+
+  .left-space {
+    margin-left: 0px;
+  }
+
+  #grid-container {
+    padding-left: 20px;
+    padding-right: 20px;
+    grid-template-columns: auto;
+    grid-template-areas:
+      "itema"
+      "itemb"
+      "itemc"
+      "itemd"
+      "iteme";
+  }
+
+  #grid-adjust1 {
+    grid-template-columns: auto;
+    grid-row-gap: 60px;
+    grid-template-areas:
+      "itema"
+      "itemb"
+      "itemc";
+  }
+
+  .grid-adjust2 {
+    grid-template-columns: auto;
+    grid-row-gap: 10px;
+    grid-template-areas:
+      "itema"
+      "itemb"
+      "itemc";
+  }
+
+  .last-reviews h1 {
+    padding-left: 20px;
+  }
+
+  .premium h1 {
+    padding-left: 20px;
+  }
+
+  .more-about {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  #players-img {
+    height: 270px;
+    width: 100%;
+  }
+
+  #trailer-video {
+    height: 270px;
+    width: 100%;
+  }
+
+  #media-adjust2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  .form-adjust2 {
+    width: 100%;
+    margin-right: 0px;
+  }
+
+  #media-adjust3 {
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+
+  .footer-links {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+}
+
+@media screen and (max-width: 414px) {
+  .center {
+    width: auto;
+  }
+
+  .header-title {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  .header-title h1 {
+    text-align: center;
+  }
+
+  #div-form h1 {
+    padding: 40px 20px 35px 20px;
+  }
+
+  #div-form {
+    width: 100%;
+    text-align: center;
+    border-top: rgb(0, 2, 53) solid 3px;
+    background-color: rgb(233, 233, 233);
+  }
+
+  .form-adjust1 {
+    width: 300px;
+  }
+
+  #players-img {
+    height: 220px;
+  }
+
+  #trailer-video {
+    height: 220px;
+  }
+
+  .footer-links {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  #footer-link1 {
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+
+  #footer-link2 {
+    padding-top: 0px;
+    padding-bottom: 60px;
+  }
+
+  .footer-img {
+    width: 35px;
+    height: 35px;
+    filter: grayscale(0%);
+  }
+}
